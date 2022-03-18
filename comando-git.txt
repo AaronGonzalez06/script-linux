@@ -1,0 +1,12 @@
+git diff
+---------
+comando que nos dice lo que ha cambiado con respecto al commit anterior
+
+git add
+--------
+cuando queramos añadir un archivo/cambio al repositorio, primero 
+debemos efectuar el comando git add
+pero sin en cambio queremos  desacer los cambios y no añadirlo al repositorio
+debemos efectuar el siguiente comando--> git reset HEAD archivo, y si por una 
+remota casualidad quieres borrar el archivo del repositorio. se debe usar el 
+comando --> git rm archivo
