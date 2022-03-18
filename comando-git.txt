@@ -15,3 +15,9 @@ ahora para una copia de nuestro repositorio local git, hacemos --> git commit -m
 si queremos subirlo, debemos hacer un --> git push origin main , donde:
 origin--> es mi servidor remoto de git 
 main --> es la rama en la cual trabajo, por defecto es la rama main
+
+para bajar los archivos de nuestro repositorio git, debemos hacer un pull y a su
+vez lo tenemos sincronizado con nuestro repositorio local, ya que si tienen cosas 
+diferentes pueden dar conflictos.
+se recomienda hacer un pull cuando se empieza a trabajar para evitar conflictos
+--> git pull origin main
