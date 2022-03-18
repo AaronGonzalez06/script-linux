@@ -21,3 +21,13 @@ vez lo tenemos sincronizado con nuestro repositorio local, ya que si tienen cosa
 diferentes pueden dar conflictos.
 se recomienda hacer un pull cuando se empieza a trabajar para evitar conflictos
 --> git pull origin main
+
+tema de ramas
+-------------
+por defecto la rama principal es main, pero podemos crear mas ramas y movernos entre ellas
+para ello usamos el comando git branch , asi vemos las ramas que tenemos y en las que estamos
+usando. como bien deje antes, por defecto se usa la rama main.
+para crear una rama nueva tan solo habria que poner git branch nombreRama
+
+para cambiar de rama, se usa el comando --> git checkout nombrerama 
+para cambiar de rama y crearla a la vez se usa el comando --> git checkput -b nombreRama
