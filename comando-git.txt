@@ -39,3 +39,38 @@ git log --graph --decorate --oneline --all
 para fusionar una rama con otra se usa el comando --> git merge, es posible que en ciertos
 casos de conflicto entre dos ramas
 
+Para borrar una rama que ya no queremos usar, se usa el comando --> git -d branch nombreRama
+y en el caso de que la rama se hubiera fusionado con la principal, te lo dira y dara error
+para borrarla igualmente se usa el parametro -D -> git -D branch nombreRama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
