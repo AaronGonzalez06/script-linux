@@ -45,6 +45,10 @@ para borrarla igualmente se usa el parametro -D -> git -D branch nombreRama
 
 para pasar el recolector de basura, usamos --> git gc
 
+para subir por primera vez al repositorio de githud, se usa el comando:
+--> git remote add origin URLtuproyecto.git
+tras hacer eso y el commit ya podras hacer tu push del repositorio local
+
 
 
 
