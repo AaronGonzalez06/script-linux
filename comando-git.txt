@@ -31,3 +31,11 @@ para crear una rama nueva tan solo habria que poner git branch nombreRama
 
 para cambiar de rama, se usa el comando --> git checkout nombrerama 
 para cambiar de rama y crearla a la vez se usa el comando --> git checkput -b nombreRama
+
+comando para ver todos los commit y ramas ordenadas
+----------------------------------------
+git log --graph --decorate --oneline --all
+
+para fusionar una rama con otra se usa el comando --> git merge, es posible que en ciertos
+casos de conflicto entre dos ramas
+
