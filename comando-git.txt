@@ -43,6 +43,7 @@ Para borrar una rama que ya no queremos usar, se usa el comando --> git -d branc
 y en el caso de que la rama se hubiera fusionado con la principal, te lo dira y dara error
 para borrarla igualmente se usa el parametro -D -> git -D branch nombreRama
 
+para pasar el recolector de basura, usamos --> git gc
 
 
 
